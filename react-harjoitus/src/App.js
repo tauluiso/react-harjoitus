@@ -6,6 +6,7 @@ import {Router} from "./pages/Router";
 import {Counters} from "./pages/Counters";
 import {Items} from "./pages/Items";
 import {List} from "./pages/List";
+import { Ristinolla } from "./ristinolla/Ristinolla";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="Counters" element={<Counters/>}/>
             <Route path="Item" element={<Items/>}/>
             <Route path="List" element={<List/>}/>
+            <Route path="Ristinolla" element={<Ristinolla/>}/>
           </Route>
         </Routes>
     </div>
