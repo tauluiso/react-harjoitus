@@ -24,3 +24,33 @@
 .b-right{
     border-right: 7px solid black;
 }
+
+.game{
+    font-weight: bold;
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    color:black;
+
+}
+
+.game button{
+    width: 17%;
+    padding: 0.5%;
+    margin-top: 0.5%;
+    margin-bottom: 1%
+}
+
+.scoreboard{
+    width: 17.2%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    background-color: rgb(119, 6, 6);
+    border: 1px solid black;
+    font-weight: bold;
+    margin: 2% 0% 0% 0%;
+    padding: 1% 0% 1% 0%;
+    border-radius: 2px;
+}
